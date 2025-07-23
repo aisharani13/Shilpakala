@@ -108,9 +108,9 @@ header .input-group-text {
 }
 
 header .nav .nav-item {
-    line-height: 40px;
+    line-height: 55px;
     padding-inline: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -286,7 +286,7 @@ header .nav-button {
     text-shadow: 1px 1px 1px #63f745;
 }
 .about h4{
-    color:#3011e0;
+    color:#116be0;
 }
 
 /* About Us end */

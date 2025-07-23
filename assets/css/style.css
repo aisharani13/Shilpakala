@@ -17,7 +17,7 @@ a {
     text-decoration: underline !important;
 }
 
-.button {
+/* .button {
     padding: 7px 20px;
     font-size: 25px;
     border: none;
@@ -39,7 +39,7 @@ a {
 
 .button:hover a {
     color: #9E1000;
-}
+} */
 
 /* topheader section start */
 #topheader {
@@ -108,9 +108,9 @@ header .input-group-text {
 }
 
 header .nav .nav-item {
-    line-height: 40px;
+    line-height: 55px;
     padding-inline: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
 }
 
