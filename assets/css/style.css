@@ -17,9 +17,9 @@ a {
     text-decoration: underline !important;
 }
 
-/* .button {
-    padding: 7px 20px;
-    font-size: 25px;
+.button {
+    padding: 8px 20px;
+    font-size: 20px;
     border: none;
     background-color: #9E1000;
     color: white;
@@ -39,16 +39,16 @@ a {
 
 .button:hover a {
     color: #9E1000;
-} */
+}
 
 /* topheader section start */
-#topheader {
+/* #topheader {
     background-color: #0D8120;
     color: white;
     line-height: 30px;
     font-weight: 500;
     font-size: 14px;
-}
+} */
 
 /* topheader section end */
 /* header section start */
@@ -109,8 +109,8 @@ header .input-group-text {
 
 header .nav .nav-item {
     line-height: 55px;
-    padding-inline: 10px;
-    font-size: 18px;
+    padding-inline: 30px;
+    font-size: 20px;
     font-weight: 500;
 }
 

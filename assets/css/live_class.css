@@ -18,8 +18,8 @@ a {
 }
 
 .button {
-    padding: 7px 20px;
-    font-size: 25px;
+    padding: 8px 20px;
+    font-size: 20px;
     border: none;
     background-color: #9E1000;
     color: white;
@@ -27,7 +27,6 @@ a {
     border: 1px solid #9E1000;
     transition: all 0.4s;
 }
-
 .button:hover {
     color: #9E1000;
     background-color: white;
@@ -42,13 +41,13 @@ a {
 }
 
 /* topheader section start */
-#topheader {
+/* #topheader {
     background-color: #0D8120;
     color: white;
     line-height: 30px;
     font-weight: 500;
     font-size: 14px;
-}
+} */
 
 /* topheader section end */
 /* header section start */
@@ -109,8 +108,8 @@ header .input-group-text {
 
 header .nav .nav-item {
     line-height: 55px;
-    padding-inline: 10px;
-    font-size: 18px;
+    padding-inline: 30px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -285,8 +284,8 @@ header .nav-button {
     margin: 30px 0px;
     text-shadow: 1px 1px 1px #63f745;
 }
-.about h4{
-    color:#116be0;
+.about h5{
+    color:#4f11e0;
 }
 
 /* live class end */
