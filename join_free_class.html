@@ -95,66 +95,6 @@
                 line-height: 120px;
             }
         }
-
-        .rangoli {
-            width: 90%;
-            /* responsive width */
-            max-width: 600px;
-            height: 100px;
-            margin: 40px auto;
-            background: linear-gradient(to right, #b89406, #c45309, #ff0000);
-            border-radius: 0 0 50px 50px;
-            /* rounded bottom */
-            position: relative;
-            box-sizing: border-box;
-        }
-
-        /* Top corner triangles */
-        .rangoli::before,
-        .rangoli::after {
-            content: "";
-            position: absolute;
-            top: -40px;
-            width: 0;
-            height: 0;
-            border: 40px solid transparent;
-        }
-
-
-        /* Center text */
-        .rangoli h1 {
-            color: white;
-            text-align: center;
-            font-size: 2rem;
-            line-height: 100px;
-            /* vertically center text */
-            margin: 0;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .rangoli {
-                height: 150px;
-                border-radius: 0 0 30px 30px;
-            }
-
-            .rangoli h1 {
-                font-size: 1.5rem;
-                line-height: 150px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .rangoli {
-                height: 120px;
-                border-radius: 0 0 20px 20px;
-            }
-
-            .rangoli h1 {
-                font-size: 1.2rem;
-                line-height: 120px;
-            }
-        }
     </style>
 </head>
 
@@ -189,51 +129,34 @@
     <!-- join class end -->
 
     <!-- container start -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="rangoli">
-                        <h1>
-                            <p>Became Ready Ready made Rangoli Expen</p>
-                        </h1>
-                    </div>
-                    <div class="rangoli">
-                        <h1>
-                            <p>Create Rangoli & Sell onli me</p>
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="rangoli">
-                        <h1>
-                            <p>No Mess</p>
-                        </h1>
-                    </div>
-                    <div class="rangoli">
-                        <h1>
-                            <p>No Stress</p>
-                        </h1>
-                    </div>
-                    <div class="rangoli">
-                        <h1>
-                            <p>Peace Made</p>
-                        </h1>
-                    </div>
-                </div>
-            </div>
+    <section class="benefits">
+        <div class="feature-grid">
+            <div class="feature-card"><i class="fa-solid fa-bolt"></i><span>Ready-Made in Minutes</span></div>
+            <div class="feature-card"><i class="fa-solid fa-broom"></i><span>No Mess</span></div>
+
+            <div class="feature-card"><i class="fa-solid fa-store"></i><span>Create Rangoli & Sell Online</span></div>
+            <div class="feature-card"><i class="fa-solid fa-face-smile"></i><span>No Stress</span></div>
+
+            <div class="feature-card feature-wide"><i class="fa-solid fa-peace"></i><span>Peace of Mind</span></div>
+        </div>
+
+        <div class="cta-wrap pb-3">
+            <a class="cta-whatsapp" href="#"
+                target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Join Now
+            </a>
         </div>
     </section>
     <!-- container end -->
 
     <!-- join now start -->
-    <div class="col-auto ms-lg-auto mx-auto pt-4 pb-5">
+    <!-- <div class="col-auto ms-lg-auto mx-auto pt-4 pb-5">
         <div class="text-center">
             <a href="#" class="button rounded-1" id="whats-link">
                 <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
                 Join Now</a>
         </div>
-    </div>
+    </div> -->
     <!-- join now end -->
 
 
