@@ -196,7 +196,6 @@ h1 {
 
 .card {
     background: linear-gradient(135deg, #45b9c9, #431ab3);
-    ;
     color: #ffffff;
     padding: 25px;
     border-radius: 18px;
@@ -212,14 +211,14 @@ h1 {
 
 .card span {
     font-size: 2rem;
-    margin-bottom: 10px;
 }
 
+/* 
 .highlight {
     font-weight: 700;
     font-size: 1.2rem;
     color: #FCE582;
-}
+} */
 
 .btn {
     display: inline-block;
@@ -248,7 +247,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 20px;
 }
 
