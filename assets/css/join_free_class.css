@@ -42,9 +42,10 @@ a {
 }
 
 /* top strat */
-.top{
+.top {
     background-color: #01082A;
 }
+
 /* no extra characters before the selector! */
 .fancy-text {
     font-family: 'Great Vibes', cursive;
@@ -166,7 +167,8 @@ a {
 .container1 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #F0E8E8);;
+    background: linear-gradient(135deg, #F0E8E8);
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +179,6 @@ a {
 .container {
     max-width: 900px;
     padding: 30px;
-    text-align: center;
 }
 
 h1 {
@@ -194,7 +195,8 @@ h1 {
 }
 
 .card {
-    background: linear-gradient(135deg, #45b9c9, #431ab3);;
+    background: linear-gradient(135deg, #45b9c9, #431ab3);
+    ;
     color: #ffffff;
     padding: 25px;
     border-radius: 18px;
@@ -210,7 +212,6 @@ h1 {
 
 .card span {
     font-size: 2rem;
-    display: block;
     margin-bottom: 10px;
 }
 
@@ -227,7 +228,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
-    background: linear-gradient(90deg,  #ff0000, #800000);
+    background: linear-gradient(90deg, #ff0000, #800000);
     border-radius: 40px;
     text-decoration: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -237,6 +238,43 @@ h1 {
 .btn:hover {
     transform: scale(1.08);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0B1020;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.perks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.perk {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-weight: 500;
 }
 
 /* container1 end */
