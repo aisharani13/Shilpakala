@@ -42,11 +42,14 @@ a {
 }
 
 /* top strat */
+.top{
+    background-color: #01082A;
+}
 /* no extra characters before the selector! */
 .fancy-text {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     background: linear-gradient(to right, #ffcc00, #ff6600, #ff0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -163,7 +166,7 @@ a {
 .container1 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(120deg, #f6d365, #fda085);
+    background: linear-gradient(135deg, #F0E8E8);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,8 +194,8 @@ h1 {
 }
 
 .card {
-    background: linear-gradient(135deg, #ff9966, #ff5e62);
-    color: #fff;
+    background: linear-gradient(135deg, #45b9c9, #431ab3);;
+    color: #ffffff;
     padding: 25px;
     border-radius: 18px;
     font-weight: 600;
@@ -214,7 +217,7 @@ h1 {
 .highlight {
     font-weight: 700;
     font-size: 1.2rem;
-    color: #ffe082;
+    color: #FCE582;
 }
 
 .btn {
@@ -224,7 +227,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
-    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    background: linear-gradient(90deg,  #ff0000, #800000);
     border-radius: 40px;
     text-decoration: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
